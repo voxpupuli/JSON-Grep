@@ -34,6 +34,9 @@ jobs:
       - name: Run specs
         run: bundle exec rake spec
 
+      - name: Run rubocop
+        run: bundle exec rake rubocop
+
   tests:
     if: always()
     needs:

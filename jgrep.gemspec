@@ -18,4 +18,9 @@ Gem::Specification.new do |s|
     s.files = `git ls-files`.split("\n") - Dir[".*", "Gem*", "*.gemspec"]
     s.executables = s.files.grep(%r{^bin/}) { |f| File.basename(f) }
     s.require_paths = ["lib"]
+
+    s.add_development_dependency 'rake', '~> 13.2'
+    s.add_development_dependency 'rspec', '~> 3.13'
+    s.add_development_dependency 'mocha', '~> 3.1'
+    s.add_development_dependency 'voxpupuli-rubocop', '~> 5.2.0'
 end
