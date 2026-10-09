@@ -23,4 +23,5 @@ Gem::Specification.new do |s|
     s.add_development_dependency 'rspec', '~> 3.13'
     s.add_development_dependency 'mocha', '~> 3.1'
     s.add_development_dependency 'voxpupuli-rubocop', '~> 5.2.0'
+    s.add_dependency 'json', '~> 3.0'
 end
