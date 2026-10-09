@@ -1,9 +1,10 @@
 require 'date'
+require_relative 'lib/parser/version'
 
 Gem::Specification.new do |s|
     s.name = 'jgrep'
 
-    s.version = '1.5.4'
+    s.version = JGrep::VERSION
     s.date = Date.today.to_s
 
     s.authors = ['Vox Pupuli']
