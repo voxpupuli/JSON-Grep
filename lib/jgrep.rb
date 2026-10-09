@@ -32,7 +32,6 @@ module JGrep
     errors = ""
 
     begin
-      JSON.create_id = nil
       json = JSON.parse(json)
       json = [json] if json.is_a?(Hash)
 
