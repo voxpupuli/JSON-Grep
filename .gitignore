@@ -1,3 +1,6 @@
 .ruby-*
 Gemfile.lock
 tags*
+vendor/
+.vendor/
+.bundle/
