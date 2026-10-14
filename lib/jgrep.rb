@@ -32,7 +32,6 @@ module JGrep
     errors = ""
 
     begin
-      JSON.create_id = nil if Gem::Version.new(JSON::VERSION) < Gem::Version.new("2.7")
       json = JSON.parse(json)
       json = [json] if json.is_a?(Hash)
 
