@@ -2,17 +2,24 @@
 
 All notable changes to this project will be documented in this file.
 
-## [1.5.4](https://github.com/voxpupuli/JSON-Grep/tree/1.5.4) (2026-10-09)
+## [1.6.0](https://github.com/voxpupuli/JSON-Grep/tree/1.6.0) (2026-10-14)
 
-[Full Changelog](https://github.com/voxpupuli/JSON-Grep/compare/1.5.4...1.5.4)
+[Full Changelog](https://github.com/voxpupuli/JSON-Grep/compare/1.5.4...1.6.0)
 
-**Closed issues:**
+**Implemented enhancements:**
 
-- Support for complex/nested start expressions ?  [\#16](https://github.com/voxpupuli/JSON-Grep/issues/16)
+- feat: add voxpupuli-rubocop [\#62](https://github.com/voxpupuli/JSON-Grep/pull/62) ([rwaffen](https://github.com/rwaffen))
+- feat: make it work with json 3 [\#61](https://github.com/voxpupuli/JSON-Grep/pull/61) ([rwaffen](https://github.com/rwaffen))
+- feat: change to github changelog generator [\#60](https://github.com/voxpupuli/JSON-Grep/pull/60) ([rwaffen](https://github.com/rwaffen))
+
+**Fixed bugs:**
+
+- fix: cleanup gemspec after transfer; make it work with ruby 4 [\#59](https://github.com/voxpupuli/JSON-Grep/pull/59) ([rwaffen](https://github.com/rwaffen))
 
 **Merged pull requests:**
 
-- Add basic github workflow [\#56](https://github.com/voxpupuli/JSON-Grep/pull/56) ([bastelfreak](https://github.com/bastelfreak))
+- Update voxpupuli-rubocop requirement from ~\> 5.2.0 to ~\> 5.3.0 [\#67](https://github.com/voxpupuli/JSON-Grep/pull/67) ([dependabot[bot]](https://github.com/apps/dependabot))
+- docs: update readme and add transfer notice [\#58](https://github.com/voxpupuli/JSON-Grep/pull/58) ([rwaffen](https://github.com/rwaffen))
 - Provide basic documentation using yardoc tags [\#53](https://github.com/voxpupuli/JSON-Grep/pull/53) ([ekohl](https://github.com/ekohl))
 - Update README.markdown: or example [\#52](https://github.com/voxpupuli/JSON-Grep/pull/52) ([skx](https://github.com/skx))
 - Make spec\_helper load jgrep without a relative path [\#51](https://github.com/voxpupuli/JSON-Grep/pull/51) ([lelutin](https://github.com/lelutin))
